@@ -1,0 +1,105 @@
+/* Үндсэн тохиргоо */
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Хуудасны толгой (header) */
+header {
+  background-image: url("03.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+/* 666.jpg зураг */
+header img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 400px; /* Зурагны доод зайнд 30px нэмсэн */
+}
+
+/* Бүлэг хэсэг */
+section {
+  padding: 2em;
+}
+
+/* Гарчиг */
+h2 {
+  text-align: center;
+  color: #ffcc00;
+  font-size: 40px;
+  margin-bottom: 1em;
+  background-color: #4CAF50; /* Ногоон өнгө */
+  color: white;              /* Үсгийн өнгө */
+  padding: 10px 20px;        /* Дотор зай */
+  border: none;              /* Хүрээгүй */
+  border-radius: 5px;        /* Булангийн дугуйрсан байдал */
+  cursor: pointer;           /* Хулгана очиход заагч болно */
+  font-size: 16px;
+}
+h3 {  
+  text-align: center;
+  color: #ffcc00;
+  font-size: 40px;
+  margin-bottom: 1em;
+  background-color: #4CAF50; /* Ногоон өнгө */
+  color: white;              /* Үсгийн өнгө */
+  padding: 10px 20px;        /* Дотор зай */
+  border: none;              /* Хүрээгүй */
+  border-radius: 5px;        /* Булангийн дугуйрсан байдал */
+  cursor: pointer;           /* Хулгана очиход заагч болно */
+  font-size: 16px;}
+.my-button:hover {
+  background-color: #45a049; /* Хулгана ойртоход өнгө өөрчлөгдөнө */
+}
+
+/* Зургийн эгнээ */
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Зурагны дизайн */
+.gallery-row img {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Зураг дээр хулгана очих үед томрох */
+.gallery-row img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive тохиргоо */
+@media (max-width: 768px) 
+
+
+ {
+ 
+  }
+
+  section {
+    padding: 1em;
+  }
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  bottom: 0cap;
+}

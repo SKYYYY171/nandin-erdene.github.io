@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кино мэдээлэл</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .movie-image {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .movie-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .movie-info {
+      flex: 2;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+    }
+
+    .movie-info h2 {
+      margin-top: 0;
+      color: #333;
+    }
+.back-button {
+  display: inline-block;
+  background-color: #ff2a2a;
+  color: rgb(255, 190, 12);
+  padding: 20px 600px;
+  margin: 60px auto;           /* авто margin = төвлөрүүлнэ */
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;              /* голлохын тулд block болгож байна */
+  width: fit-content;          /* товч өөрийн хэмжээгээр байна */
+}
+    .movie-info p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    .episode-list {
+      flex: 1;
+      padding: 20px;
+      background-color: #f0fff0;
+    }
+
+    .episode-list h3 {
+      color: #2e7d32;
+    }
+
+    .episode-list .episode-btn {
+      display: block;
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .episode-list .episode-btn:hover {
+      background-color: #388e3c;
+    }
+    header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- Зураг -->
+  <div class="movie-image">
+    <img src="22.jpg" alt="Кино зураг">
+  </div>
+
+  <!-- Мэдээлэл -->
+  <div class="movie-info">
+    <h2>Кино нэр: WAY BACK HOME</h2>
+    <p>Гарсан он: 2025</p>
+    <p>Үргэлжлэх хугацаа: 2 цаг 30 минут</p>
+    <p>Товч агуулга: Энэ кино нь адал явдал, нэгэн охиныг хамгаалахаар гэмт хэрэгтний өөдөөс ...</p>
+  </div>
+
+  <!-- Ангиуд -->
+  <div class="episode-list">
+    <h3>Ангиуд</h3>
+    <a href="#" class="episode-btn">1-р анги</a>
+    <a href="#" class="episode-btn">2-р анги</a>
+    <a href="#" class="episode-btn">3-р анги</a>
+    <a href="#" class="episode-btn">4-р анги</a>
+    <a href="#" class="episode-btn">5-р анги</a>
+    <a href="#" class="episode-btn">6-р анги</a>
+    <a href="#" class="episode-btn">7-р анги</a>
+    <a href="#" class="episode-btn">8-р анги</a>
+  </div>
+
+</div>
+<a href="01.html" class="back-button">Буцах</a>
+</body>
+</html>
